@@ -1,0 +1,29 @@
+{% extends 'todo/base.html' %}
+{% block content %}
+
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+<div class="row justify-content-center mt-5">
+    <div class="col-md-7 text-center">
+        <h1>Stop Forgetting Things!</h1>
+        <p>We all live busy lives, there is work, school etc this sometimes makes room for us to forget things. But worry no more I have created <b>Todo List </b> to aid you to keep on top of things whether it assignments, grocery shopping or simply walking the dog, <u>Todo List</u> has got you covered. <b> Get Started Below</b></p>
+    <a role="button" class="btn btn-danger btn-lg" href="{% url 'signupuser' %}">Sign Up</a>
+    <a role="button" class="btn btn-success btn-lg" href="{% url 'loginuser' %}">Log In</a>
+    </div>
+</div>
+
+{% endblock %}
